@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Stylish&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="status">
+            <div class="head">
+                    <h1>ToDo List</h1>
+                    <p>Let's plan your day with me</p>
+                    <div id="progressbar">
+                        <div id="progress"></div>
+                    </div>
+            </div>
+            <div class="statusnum">
+                <p id="number">0/0</p>
+            </div>
+        </div>
+        <form action="">
+            <input type="text" id="taskInput" placeholder="write your task here....">
+            <button  id="newTask" type="submit">+</button>
+        </form>
+        <ul  id="tasks">
+        </ul>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
